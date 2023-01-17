@@ -1,0 +1,68 @@
+cff-version: 1.2.0
+title: >-
+  RouteNet-Fermi: Network Modeling with Graph Neural
+  Networks
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+authors:
+  - given-names: Miquel
+    family-names: Ferriol-Galmés
+    email: miquel.ferriol@upc.edu
+    affiliation: Universitat Politècnica de Catalunya
+  - given-names: Jordi
+    family-names: Paillisse
+    affiliation: Universitat Politècnica de Catalunya
+  - given-names: José
+    family-names: Suárez-Varela
+    affiliation: Universitat Politècnica de Catalunya
+  - given-names: Krzysztof
+    family-names: Rusek
+    affiliation: AGH University of Science and Technology
+  - given-names: Shihan
+    family-names: Xiao
+    affiliation: 'Huawei Technologies Co., Ltd.'
+  - affiliation: 'Huawei Technologies Co., Ltd.'
+    given-names: Xiang
+    family-names: Shi
+  - given-names: Xiangle
+    family-names: Cheng
+    affiliation: 'Huawei Technologies Co., Ltd.'
+  - given-names: Pere
+    family-names: Barlet-Ros
+    affiliation: Universitat Politècnica de Catalunya
+  - given-names: Albert
+    family-names: Cabellos-Aparicio
+    affiliation: Universitat Politècnica de Catalunya
+abstract: >-
+  Network models are an essential block of modern
+  networks. For example, they are widely used in
+  network planning and optimization. However, as
+  networks increase in scale and complexity, some
+  models present limitations, such as the assumption
+  of markovian traffic in queuing theory models, or
+  the high computational cost of network simulators.
+  Recent advances in machine learning, such as Graph
+  Neural Networks (GNN), are enabling a new
+  generation of network models that are data-driven
+  and can learn complex non-linear behaviors. In this
+  paper, we present RouteNet-Fermi, a custom GNN
+  model that shares the same goals as queuing theory,
+  while being considerably more accurate in the
+  presence of realistic traffic models. The proposed
+  model predicts accurately the delay, jitter, and
+  loss in networks. We have tested RouteNet-Fermi in
+  networks of increasing size (up to 300 nodes),
+  including samples with mixed traffic profiles --
+  e.g., with complex non-markovian models -- and
+  arbitrary routing and queue scheduling
+  configurations. Our experimental results show that
+  RouteNet-Fermi achieves similar accuracy as
+  computationally-expensive packet-level simulators
+  and it is able to accurately scale to large
+  networks. For example, the model produces delay
+  estimates with a mean relative error of 6.24% when
+  applied to a test dataset with 1,000 samples,
+  including network topologies one order of magnitude
+  larger than those seen during training.
+doi: https://doi.org/10.48550/arXiv.2212.12070
