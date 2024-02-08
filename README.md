@@ -22,7 +22,9 @@ The simulator also supports different types of traffic profiles, including:
 
 - ON-OFF distribution
 
-Additionally, you can define the packet size distribution as a list of packet sizes and their probabilities. For more information on the available parameters and how to use them, please refer to the [input_parameters_glossary.ipynb](input_parameters_glossary.ipynb) document.
+- Generic distribution generated with a python script
+
+Additionally, you can define the packet size distribution as a list of packet sizes and their probabilities or through a generic python script. For more information on the available parameters and how to use them, please refer to the [input_parameters_glossary.ipynb](input_parameters_glossary.ipynb) document.
 
   
   
